@@ -1,6 +1,4 @@
-
-
-#Darknet_fix
+# Darknet_fix
 
 ---
 
@@ -10,7 +8,7 @@
 
 ---
 
-#What's changed
+# What's changed
 
 Add position output, the position of detection will be saved into an array.
 Change the source file in ```include/darknet.h``` and ```src/image.c```
