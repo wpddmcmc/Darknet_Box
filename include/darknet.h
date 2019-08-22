@@ -736,6 +736,7 @@ void get_detections(image im, detection *dets, int num, float thresh, char **nam
 
 
 matrix network_predict_data(network *net, data test);
+image **load_alphabet_fix(char path[256]);
 image **load_alphabet();
 image get_network_image(network *net);
 float *network_predict(network *net, float *input);
